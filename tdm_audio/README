@@ -1,0 +1,28 @@
+-----------------------------------------------------------------------------
+TDM Audio
+-----------------------------------------------------------------------------
+
+Logic analyser setup
+--------------------
+
+The logic analyser used was an Salee Logic 1, running at 50Mhz:
+
+Probe
+3		Bit clock
+2		Frame sync
+1		Data
+
+
+tdm-4ch-16bit-cap1.sr
+---------------------
+
+4 channels, 16 bits per sample.
+Data is set of 0x1100 0x3322 0x5544 0x7766 0x9988 0xbbaa 0xddcc 0xffee
+
+
+tdm-8ch-16bit-cap1.sr
+---------------------
+
+8 channels, 16 bits per sample
+Data is byte 0x12 repeated.
+
